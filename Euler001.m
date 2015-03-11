@@ -4,6 +4,7 @@ clear
 clc
 
 sum = 0;
+y = 1;
 for x = 1:999
     if mod(x,3)==0 || mod(x,5)==0
         sum = sum+x;
